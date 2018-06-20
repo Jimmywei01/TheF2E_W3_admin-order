@@ -62,8 +62,8 @@ block content
               .up<i class="fas fa-arrow-up"></i> 
               .up 20%
                .views
-                 p INCREASE <p style color="red">899</p>VIEWS
-                 .time last week 44,937
+                 p.watch INCREASE <font color="#7ED321" size="5">899</font> VIEWS
+                 p.time last week 44,937
                  .trangle
             .mediaStyel.go
               <i class="fab fa-google fa-3x"></i>
@@ -85,34 +85,40 @@ block content
               .down 30%
 
         .order
-              .title Last Orders
+              .title Latest Orders
               .people-1
                 img(src="http://lorempixel.com/100/100/", alt="none")
-                p Vintage T-shirt
-                .date
-                  i 2018/6/13 13:42
-                  p Total
-                .name
-                  i Belle Wille
-                  p 3,200
-              .people-2
+                ul.date
+                    li.p Vintage T-shirt
+                    li.clock <i class="fas fa-clock fa-xs"></i>
+                      p 2018/6/13 13:42
+                    li.name <i class="fas fa-male fa-sm"></i>
+                      p Belle Wille 
+                ul.buy
+                  li.total Total
+                  li.money 3,200
+              .people-1
                 img(src="http://lorempixel.com/100/100/", alt="none")
-                p Vintage T-shirt
-                .date
-                  i 2018/6/13 10:42
-                  p Total
-                .name
-                  i Cowboy Jacket
-                  p 2,800
-              .peaple-3 
+                ul.date
+                  li.p Cowboy Jacket
+                  li.clock <i class="fas fa-clock fa-xs"></i>
+                    p 2018/6/13 10:42
+                  li.name <i class="fas fa-male fa-sm"></i>
+                    p Adrian Cummings
+                ul.buy
+                  li.total Total
+                  li.money 2,800
+              .people-1.noBorder 
                 img(src="http://lorempixel.com/100/100/", alt="none")
-                p Vintage T-shirt
-                .date
-                  i 2018/6/13 8:42
-                  p Total
-                .name
-                  i Lura Holland
-                  p 1,600
+                ul.date
+                  li.p Coach Coat
+                  li.clock <i class="fas fa-clock fa-xs"></i>
+                    p 2018/6/13 8:42
+                  li.name <i class="fas fa-male fa-sm"></i>
+                    p Lura Holland
+                ul.buy 
+                  li.total Total
+                  li.money 1,600
 
 
 
