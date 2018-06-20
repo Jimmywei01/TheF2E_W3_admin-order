@@ -25,10 +25,10 @@
 
 
 //三角形產生器 預設是等腰三角形，如要做正三角形，請將type預設變數改為0.8666666 
-//右上角的，就打：+triangle(30px, red, right-top) 左下角的就打：+triangle(30px, red, left-bottom)
+//右上角的，就打：@include triangle(30px, red, right-top) 左下角的就打：@include triangle(30px, red, left-bottom)
 @mixin triangle($size, $color, $align,$type:1){
-  height: 0;
-  width: 0;
+  height: 16px;
+  width: 16px;
   @if ($align == top){
     border-bottom: ($size*$type) solid $color;
     border-left: ($size/2) solid transparent;

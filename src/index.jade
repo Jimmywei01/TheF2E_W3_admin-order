@@ -5,14 +5,14 @@ block header
     .countainer-h
       p Shoptiome
       .item
-        ul
-         li 
+         .home.style 
            a(href="#") HOME
-         li
+         .orders.style 
            a(href="#") ORDERS
-         li
+         .product.style 
            a(href="#") PRODUCT
-      p ADMIN
+      p.ad ADMIN
+    //- hr
 
 
 block navbar
@@ -20,12 +20,12 @@ block navbar
     .countainer-n
       .dateBar
         p OVERVIEW
-        
-        label(for="first")
-        input(type="date", name="" id="first")
-        img(src="", alt="none")
-        label(for="secon")
-        input(type="date", name="" id="secon")
+        .week
+          label(for="first")
+          input(type="date", name="" id="first")
+          <i class="fas fa-caret-right"></i>
+          label(for="secon")
+          input(type="date", name="" id="secon")
         
         select(name="date")
           option(value="daily" selected="selected") Daily
@@ -37,51 +37,56 @@ block navbar
 
 block content 
   #content
-    .countainer-c
+    .countainer-n
       .totalBar
-        .reve
-          i TOTAL REVENUE
+        .total.reve 
+          <i class="fas fa-hand-holding-usd fa-lg"></i> TOTAL REVENUE
           p 54,540
-        .cost
-          i TOTAL COST
+        .total.cost
+          <i class="fas fa-boxes fa-lg"></i> TOTAL COST
           p 12,660
-        .inco
-          i NET INCOME
+        .total.inco
+          <i class="fas fa-money-bill fa-lg"></i> NET INCOME
           p 41,880
       
       .active
-        img(src="http://lorempixel.com/940/406/", alt="none")
+        img(src="http://lorempixel.com/1342/500/", alt="none")
 
       .shopCard
         .media
-          p Transaction Website
-          ul
-            li
-              i Facebook.com
+            .title Transaction Website
+            .mediaStyel.fb
+              <i class="fab fa-facebook fa-3x"></i>
+              .web Facebook.com
               p 45,836
-              i 20%
+              .up<i class="fas fa-arrow-up"></i> 
+              .up 20%
                .views
-                 p INCREASE 899 VIEWS
-                 p last week 44,937
+                 p INCREASE <p style color="red">899</p>VIEWS
+                 .time last week 44,937
                  .trangle
-                
-            li
-              i google.com
+            .mediaStyel.go
+              <i class="fab fa-google fa-3x"></i>
+              .web google.com
               p 23,582
-              i 12%
-            li
-              i Shopify.com
+              .up<i class="fas fa-arrow-up"></i> 
+              .up 12%
+            .mediaStyel.am
+              <i class="fab fa-amazon fa-3x"></i>
+              .web Amazon.com
               p 2,489
-              i 20%
-            li
-              i Wordpress.com
+              .down<i class="fas fa-arrow-down"></i> 
+              .down 20%
+            .mediaStyel.wo
+              <i class="fab fa-wordpress fa-3x"></i>
+              .web Wordpress.com
               p 1,057
-              i 30%
+              .down<i class="fas fa-arrow-down"></i>
+              .down 30%
 
         .order
-          p Last Orders
-            ul
-              li 
+              .title Last Orders
+              .people-1
                 img(src="http://lorempixel.com/100/100/", alt="none")
                 p Vintage T-shirt
                 .date
@@ -90,7 +95,7 @@ block content
                 .name
                   i Belle Wille
                   p 3,200
-               li 
+              .people-2
                 img(src="http://lorempixel.com/100/100/", alt="none")
                 p Vintage T-shirt
                 .date
@@ -99,7 +104,7 @@ block content
                 .name
                   i Cowboy Jacket
                   p 2,800
-               li 
+              .peaple-3 
                 img(src="http://lorempixel.com/100/100/", alt="none")
                 p Vintage T-shirt
                 .date
