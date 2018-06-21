@@ -56,14 +56,12 @@ img {
 .shopCard {
     display: flex;
     justify-content: space-between;
-    // border: 1px solid black;
 }
 
 .media {
     position: relative;
     width: 460px;
     background-color: #fff;
-    // border: 1px solid black;
     .title {
         margin: 30px 188px 0 40px;
         font-size: 24px;
@@ -125,17 +123,15 @@ img {
 
 .order {
     width: 460px;
-    // border: 1px solid black;
     background-color: #fff;
     .title {
         margin: 30px 188px 0 40px;
         font-size: 24px;
         font-weight: bold;
     }
-   
 }
 
- .people-1 {
+.people-1 {
      display: flex;
      margin: 0 40px 23px 40px;
      justify-content: space-between;
@@ -147,47 +143,48 @@ img {
          width: 100px;
          height: 100px;
      }
-     .date {
-         .p {
-             font-size: 20px;
-             font-weight: bold;
-         }
-         .clock {
-             display: flex;
-             align-items: center;
-             i {
-                 margin-right: 7px;
-                 color: #9b9b9b;
-             }
-             p {
-                 color: #9b9b9b;
-                 margin: 8px 0;
-             }
-         }
-         .name {
-             display: flex;
-             align-items: center;
-             height: 20px;
-             i {
-                 margin: 0 10px 0 3px;
-                 color: #9b9b9b;
-             }
-             p {
-                 color: #9b9b9b;
-             }
-         }
-     }
-     .buy {
-         .total {
-             margin: 35px 0 2px 12px;
-         }
-         .money {
-             font-size: 20px;
-             font-weight: bold;
-         }
-     }
  }
+ 
+.date {
+    .p {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .clock {
+        display: flex;
+        align-items: center;
+        i {
+            margin-right: 7px;
+            color: #9b9b9b;
+        }
+        p {
+            color: #9b9b9b;
+            margin: 8px 0;
+        }
+    }
+    .name {
+        display: flex;
+        align-items: center;
+        height: 20px;
+        i {
+            margin: 0 10px 0 3px;
+            color: #9b9b9b;
+        }
+        p {
+            color: #9b9b9b;
+        }
+    }
+}
 
+.buy {
+    .total {
+        margin: 35px 0 2px 12px;
+    }
+    .money {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
 
 .people-1.noBorder{
         border-bottom: none;
