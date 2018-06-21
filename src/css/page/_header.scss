@@ -1,38 +1,37 @@
-.countainer-h{
+.countainer-h {
     display: flex;
     justify-content: space-between;
     background-color: #000;
-    p{
+    p {
         font-size: 24px;
         margin: 21px 0 21px 42px;
         color: #fff;
-    }   
+    }
     .ad {
-         font-size: 16px;
-         margin: 26px 42px 25px 0;
-     }
+        font-size: 16px;
+        margin: 26px 42px 25px 0;
+    }
 }
 
 .item {
-        display: flex;
-        margin: 26px 413px 0 80px;
-
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
-        .home.style {
-            border-bottom: 4px solid white;
-            width: 80px;
-            height: 43px;
-            text-align: center;
-        }
-        .orders {
-            padding: 0 40px;
-        }
+    display: flex;
+    margin: 26px 413px 0 80px;
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    .home.style {
+        border-bottom: 4px solid white;
+        width: 80px;
+        height: 43px;
+        text-align: center;
+    }
+    .orders {
+        padding: 0 40px;
+    }
 }
 
-hr{ 
+hr {
     position: absolute;
     top: 13%;
     left: 30%;
@@ -41,6 +40,3 @@ hr{
     border-color: #fff;
     background-color: #fff;
 }
-
-
-
